@@ -8,20 +8,20 @@ Predict if each of the following examples will produce a True or False output. C
 Example 1
     >>> a = 100
     >>> b = "science"
-    >>> a > 75 and b == "science"       Prediction:                     Actual:
+    >>> a > 75 and b == "science"       Prediction: true                    Actual:true
 Example 2
     >>> a = 100
     >>> b = "science"
-    >>> a > 75 and b != "science"       Prediction:                     Actual:
+    >>> a > 75 and b != "science"       Prediction: false                    Actual: false
 Example 3
     >>> a = 100
     >>> b = "science"
-    >>> a > 75 or b != "science"        Prediction:                     Actual:
+    >>> a > 75 or b != "science"        Prediction: false                    Actual: false
 Example 4
     >>> a = 100
     >>> b = "science"
     >>> c = True
-    >>> not c and a > 75 and b == "science"     Prediction:                     Actual:
+    >>> not c and a > 75 and b == "science"     Prediction: true                    Actual:false
 
 In your Console
 
@@ -51,3 +51,8 @@ not(x or y) == not x and not y
 
 not(x and y) == not x or not y
 '''
+age = 35
+can_be_president = "born here"
+us_citizen = 14
+can_be_president = us_citizen >= 14 and age >= 35
+print(can_be_president)

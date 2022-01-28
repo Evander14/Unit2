@@ -3,13 +3,13 @@ In your notebook
 Predict what the following inputs will result in
 Once you have filled in the "prediction" column, check your answers in interactive mode and write the actual result.
     Input                                       Prediction                                      Result
-1.  float('1')                                      '1'
-2.  str(1 + '2')                                    '12'
-3.  str('2')                                        '2'
-4.  int('abc')                                      abc
-5.  int(float('1.6'))                                1
-6.  float(int(1.6))                                  1
-7.  str(float(1))                                   '1'
+1.  float('1')                                      '1'                                             1.o
+2.  str(1 + '2')                                    '12'                                            error
+3.  str('2')                                        '2'                                             '2'
+4.  int('abc')                                      abc                                             error
+5.  int(float('1.6'))                                1                                                 1
+6.  float(int(1.6))                                  1                                                1.0                  
+7.  str(float(1))                                   '1'                                                '1.0'     
 
 
 In script mode
