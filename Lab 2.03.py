@@ -89,4 +89,23 @@ else:
 '''
 list1 = ['dog','cat','tiger','lion','zebra', 'elephant','whale','dolphin','$10,000']
 x = int(input("Pick a number 0-9"))
-print({list1})
+if x == 0:
+    print(list1[0])
+elif x == 1:
+    print(list1[1])
+if x == 2:
+    print(list1[2])
+elif x == 3:
+    print(list1[3])
+if x == 4:
+    print(list1[4])
+elif x == 5:
+    print(list1[5])
+if x == 6:
+    print(list1[6])
+elif x == 7:
+    print(list1[7])
+if x == 8:
+    print(list1[8])
+elif x == 9:
+    print(list1[9])
